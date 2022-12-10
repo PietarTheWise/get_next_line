@@ -13,19 +13,19 @@
 </p>
 
 <p align="center">
-  <a href="#what-it-does">What it does?</a> •
+  <a href="#what-does-it-do">What does it do?</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#disclaimer">Disclaimer</a>
 </p>
 
-## What it does?
+## What does it do?
 
-* Reads a single line from filedescriptor until newline ("\n") character is found.
-* Dynamically allocates and stores the read line into a char ** pointer given as function's input 
+* Reads a single line from file descriptor until newline ("\n") character is found.
+* Dynamically allocates and stores the read line into a char ** pointer given as the function's input 
 * By calling the function again, the function returns the next line on the given file.
 * By calling the function n times the function loops across the file n lines storing always next line to the pointer
 * Returns 1 if file has been read, 0 if we have reached end of the file and -1 if there is an error.
-* Can be called with multiple filedescriptors.
+* Can be called with multiple file descriptors.
 
 ## How To Use
 
@@ -81,7 +81,7 @@ $ ./a.out test.txt
 ## DISCLAIMER
 
 <p>
-This is a project from 42 school, which is a school that utilizes peer to peer learning.
+This is a project from the 42 school, which is a school that utilizes peer to peer learning.
 We're only given a document that gives us the details of the assignment, therefore each implementation
 is unique. Each assignment is tested for crashes and other bugs thoroughly by other peers. Apart from some exceptions, existing
 libraries are banned, these projects utilize our self made version of libc called libft.
